@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegServ</servlet-name>
+  	<display-name>RegServ</display-name>
+  	<description></description>
+  	<servlet-class>com.user.sev.RegServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegServ</servlet-name>
+  	<url-pattern>/RegServ</url-pattern>
+  </servlet-mapping>
 </web-app>

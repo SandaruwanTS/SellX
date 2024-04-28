@@ -1,4 +1,7 @@
-<div class="container-fluid p-3">
+<div class="container-fluid" style="height: 10px; background-color: #303f9f"></div>
+
+
+<div class="container-fluid p-3 bg-light">
 	<div class="row">
 		<div class="col-md-3">
 			<img alt="" src="logo/logo.png" style="width: 150px; height:90px" class="img-tumb">
@@ -12,7 +15,7 @@
 			</form>
 		</div>
 		<div class="col-md-3">
-			<a href="" class="btn btn-success">Login</a> <a href=""
+			<a href="login.jsp" class="btn btn-success">Login</a> <a href="register.jsp"
 				class="btn btn-primary">Register</a>
 		</div>
 	</div>
@@ -44,7 +47,10 @@
 			<li class="nav-item active"><a class="nav-link" href="#">Home
 					<span class="sr-only">(current)</span>
 			</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+			<li class="nav-item active"><a class="nav-link" href="#">Recent Book</a></li>
+			<li class="nav-item active"><a class="nav-link" href="#">New Book</a></li>
+			
+			
 			<li class="nav-item dropdown"><a
 				class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 				role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -55,13 +61,14 @@
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="#">Something else here</a>
 				</div></li>
-			<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a>
+				
+				
+			<li class="nav-item active"><a class="nav-link disabled" href="#">Old book</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="search"
-				placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			<button class="btn btn-light my-2 my-sm-0" type="submit">Setting</button>			
+			<button class="btn btn-light my-2 my-sm-0 ml-1" type="submit">Contact Us</button>
 		</form>
 	</div>
 </nav>

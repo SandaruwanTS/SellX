@@ -1,11 +1,10 @@
-h1{
-	color:red;
-}
+
 .bg-custom{
 	background-color: #303f9f;
 }
 
 .navbar .nav-item:hover .nav-link{
-	backgrgrund-color: white;
+	background-color: white;
 	color: blue;
+	border-radius: 10px;
 }
